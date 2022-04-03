@@ -2,9 +2,26 @@
 
   <PropertyGroup>
     <TargetFramework>net452</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
     <AssemblyName>$(MSBuildProjectName).net</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CitizenFX.Core">
+      <HintPath>..\..\..\..\..\Desktop\dependencies\CitizenFX.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CitizenFX.Core.Client">
+      <HintPath>..\..\..\..\..\Desktop\dependencies\CitizenFX.Core.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="FivePD.net">
+      <HintPath>..\..\..\..\..\Desktop\dependencies\FivePD.net.dll</HintPath>
+    </Reference>
+    <Reference Include="MenuAPI">
+      <HintPath>..\..\..\..\..\Desktop\dependencies\MenuAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>
